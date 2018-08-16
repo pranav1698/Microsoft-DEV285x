@@ -4,7 +4,7 @@ class Sorting{
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
         
-        int[] numbers = new int[7];
+        int[] numbers = new int[6];
         System.out.println("Enter Array:");
         for(int i = 0; i <= numbers.length - 1; i++){
             numbers[i] = sc.nextInt();
@@ -14,6 +14,7 @@ class Sorting{
         for(int i = 0; i <= numbers.length - 1; i++){
             System.out.print(numbers[i] + " ");
         }
+        System.out.println();
 
         for(int i = 0; i <= numbers.length - 1; i++){
             int minIndex = i;
